@@ -39,7 +39,9 @@ Criar um sistema completo e modular capaz de:
     - Fonte de alimentação 5V 2.5A
     - Módulo Conversor Analógico Digital Ads1115 16bits 4 Canais
 
-    *Nota:* O módulo ADS1115 permite a leitura de sinais analógicos com alta precisão (16 bits), algo necessário para sensores como pH, temperatura por termistor, entre outros — especialmente porque o Raspberry Pi não possui entradas analógicas nativas.
+    *Nota:* O módulo ADS1115 permite a leitura de sinais analógicos com alta precisão (16 bits), 
+    algo necessário para sensores como pH, temperatura por termistor, entre outros — especialmente 
+    porque o Raspberry Pi não possui entradas analógicas nativas.
 
     **Arquivos principais:**
     - `mast/__main__.py` – ponto de entrada do sistema via terminal
