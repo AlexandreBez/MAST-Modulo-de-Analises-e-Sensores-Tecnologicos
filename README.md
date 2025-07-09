@@ -1,5 +1,3 @@
-rgb(0, 0, 0)
-
 # 🛰️ MAST – Módulo de Análises e Sensores Tecnológicos
 ![Logo do MAST(Modulo de Analise de Sensores Técnologicos)](MAST.png)
 
@@ -9,13 +7,11 @@ rgb(0, 0, 0)
 
 ## 📌 Objetivo
 
-[^1]: Criar um sistema completo e modular capaz de:
+Criar um sistema completo e modular capaz de:
 
-[^1]: Coletar dados em tempo real de sensores analógicos ou digitais (como pH, corrente, voltagem, temperatura, gases voláteis);
-[^2]: Registrar e salvar automaticamente os dados para posterior análise;
-[^3]: Gerar gráficos e relatórios com base nas medições;
-[^4]: Aplicar estatísticas descritivas e análises para detectar padrões ou anomalias;
-[^5]: Simular ambientes extremos e registrar o comportamento químico das amostras.
+* Coletar dados em tempo real de sensores analógicos ou digitais (como pH, corrente, voltagem, temperatura, gases voláteis, presão atmosférica, etc);
+* Registrar e salvar automaticamente os dados para posterior análise em .odt/.pdf/.excel/.csv/etc;
+* Realisar analises gerando gráficos em arquivos .pdf/.odt
 
 ---
 
@@ -33,19 +29,7 @@ rgb(0, 0, 0)
 
 ## 🧪 Estrutura do projeto
 
-MAST/
-├── .venv/ # Ambiente virtual Python
-├── data/ # Dados coletados dos sensores (.csv, .json)
-├── docs/ # Documentação, objetivos e anotações
-├── src/ # Código-fonte principal do projeto
-│ ├── main.py # Script principal de execução
-│ ├── sensores.py # Leitura dos sensores
-│ ├── analise.py # Cálculos estatísticos
-│ ├── graficos.py # Geração de gráficos
-│ └── utils.py # Funções auxiliares
-├── requirements.txt # Pacotes Python necessários
-├── README.md # Esta documentação
-└── .gitignore # Ignora arquivos do ambiente virtual
+> O modulo é divido em varios modulos independentes que mantem um acomunicaç
 
 ---
 
