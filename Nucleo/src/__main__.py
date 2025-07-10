@@ -1,4 +1,18 @@
-from .menu import menu
+from .FuncoesTerminal import mensagemTerminalParaTexto
+
+def main():
+    while True:
+        print(r"""
+        ███╗   ███╗    █████╗    ███████╗████████╗
+        ████╗ ████║   ██╔══██╗   ██╔════╝╚══██╔══╝
+        ██╔████╔██║   ███████║   ███████╗   ██║   
+        ██║╚██╔╝██║   ██╔══██║   ╚════██║   ██║   
+        ██║ ╚═╝ ██║██╗██║  ██║██╗███████║██╗██║   
+        ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝╚═╝   
+        [ MAST - Módulo de Análises e Sensores Tecnológicos ]
+        """)
+        
+        
 
 if __name__ == "__main__":
-    menu()
+    main()
