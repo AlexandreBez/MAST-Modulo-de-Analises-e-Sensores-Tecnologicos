@@ -37,18 +37,11 @@ Criar um sistema completo e modular capaz de:
     - **Raspberry Pi 3/4** (ou superior) com Raspberry Pi OS Lite
     - Cartão microSD classe 10 (mínimo 16 GB)
     - Fonte de alimentação 5V 2.5A
-    - Módulo Conversor Analógico Digital Ads1115 16bits 4 Canais
+    - Módulo Conversor Analógico-Digital ADS1115 16 bits 4 Canais
 
     *Nota:* O módulo ADS1115 permite a leitura de sinais analógicos com alta precisão (16 bits), 
     algo necessário para sensores como pH, temperatura por termistor, entre outros — especialmente 
     porque o Raspberry Pi não possui entradas analógicas nativas.
-
-    **Arquivos principais:**
-    - `mast/__main__.py` – ponto de entrada do sistema via terminal
-    - `mast/menu.py` – interface do usuário via CLI
-    - `mast/sensores.py` – comunicação com sensores
-    - `mast/analise.py` – cálculos estatísticos
-    - `mast/utils.py` – exportações e manipulações
 
 
 ---
