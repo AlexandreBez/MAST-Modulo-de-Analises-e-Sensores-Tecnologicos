@@ -1,5 +1,3 @@
-from .FuncoesTerminal import mensagemTerminalParaTexto
-
 def main():
     while True:
         print(r"""
